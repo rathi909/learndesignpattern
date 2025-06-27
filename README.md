@@ -1,1 +1,1 @@
-# learndesignpattern from start
+# learndesignpattern
