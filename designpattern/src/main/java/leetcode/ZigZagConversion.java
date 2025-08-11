@@ -1,2 +1,45 @@
-package leetcode;public class ZigZagConversion {
+package leetcode;
+
+public class ZigZagConversion {
+
+
+    public static void main(String[] args) {
+
+        String s = "PAYPALISHIRING";
+        int numRows = 3;
+        System.out.println(convert(s,numRows));
+    }
+
+    public static  String convert(String s, int numRows) {
+
+        StringBuilder[] rows = new StringBuilder[numRows];
+
+        for (int i = 0; i < numRows; i++) {
+            rows[i] = new StringBuilder();
+        }
+
+        int currentRow = 0;
+        boolean goingDown = false;
+
+        for (char c : s.toCharArray()) {
+            rows[currentRow].append(c);
+
+            if (currentRow == 0 || currentRow == numRows - 1) {
+                goingDown = !goingDown;
+            }
+            if (goingDown == true) {
+                currentRow++;
+            } else {
+                currentRow--;
+            }
+
+        }
+
+        StringBuilder result = new StringBuilder();
+        for (StringBuilder builder : rows) {
+            result.append(builder);
+        }
+        return result.toString();
+    }
+
 }
