@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class ImmutableClass {
+public class ImmutableClass {
+    
+    
+    
 }

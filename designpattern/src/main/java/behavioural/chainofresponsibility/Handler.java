@@ -1,2 +1,13 @@
-package behavioural.chainofresponsibility;public class Handler {
+package behavioural.chainofresponsibility;
+
+public abstract class Handler {
+
+    protected Handler next;
+    Handler setNext(Handler n)
+    {
+        this.next = n;
+        return n;
+    }
+
+    abstract void handle(int level);
 }

@@ -10,11 +10,11 @@ import java.util.Map;
 public class MajorityElement {
 
     public static void main(String[] args) {
-        int nums[] = {2,2,1,1,1,2,2};
-        int nums1[] = {2,2,1,1,1,2,2,3,3,3};
+        //int nums[] = {2,2,1,1,1,2,2};
+        int nums1[] = {2,2,1,1,1,1,2,2,3,3,3};
 
-        System.out.println(majorityElement(nums));
-        System.out.println(majorityElement1(nums));
+        System.out.println(majorityElement(nums1));
+        System.out.println(majorityElement1(nums1));
 
     }
 

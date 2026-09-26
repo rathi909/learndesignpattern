@@ -3,7 +3,7 @@ package codingInterviews;
 import java.util.HashSet;
 import java.util.Set;
 
-class Solution {
+class Solution1 {
     public int lengthOfLongestSubstring(String s) {
 
         int longest =0;

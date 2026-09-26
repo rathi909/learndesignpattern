@@ -1,2 +1,5 @@
-package creational1.AbstractFactory;public class GuiFactory {
+package creational1.AbstractFactory;
+
+public interface GuiFactory {
+    Button createButton();
 }

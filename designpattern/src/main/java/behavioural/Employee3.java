@@ -1,6 +1,6 @@
 package behavioural;
 
-public class Employee {
+public class Employee3 {
     private String name;
     private Integer id;
     private Integer salary;

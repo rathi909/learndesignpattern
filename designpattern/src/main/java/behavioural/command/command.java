@@ -1,2 +1,6 @@
-package behavioural.command;public class command {
+package behavioural.command;
+
+public interface command {
+
+    void execute();
 }

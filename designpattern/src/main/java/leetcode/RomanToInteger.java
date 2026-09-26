@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.*;
 
-public class RomanToInteger {
+public class    RomanToInteger {
 
     public static int romanToInt(String s) {
         // Roman numeral values

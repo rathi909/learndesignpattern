@@ -1,2 +1,8 @@
-package FunctionalInterface;public class Welcome {
+package FunctionalInterface;
+
+
+@FunctionalInterface
+public interface Welcome {
+
+    void welcome();
 }
